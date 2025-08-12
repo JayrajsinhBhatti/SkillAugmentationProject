@@ -1,0 +1,190 @@
+/* ActivityForm.css */
+
+/* Reset default spacing */
+/* body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f8ff;
+}
+
+
+.activity-form-header {
+  background-color: #1a4ca3;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.activity-form-header h2 {
+  margin: 0;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+
+.activity-form-wrapper {
+  max-width: 900px;
+  margin: -40px auto 40px auto; 
+  padding: 0 20px;
+}
+
+
+.activity-form-container {
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.activity-form-container h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #003366;
+}
+
+
+.activity-form-container label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+
+.activity-form-container input[type="text"],
+.activity-form-container input[type="date"],
+.activity-form-container input[type="file"],
+.activity-form-container select {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+
+.activity-form-container input:focus,
+.activity-form-container select:focus {
+  border-color: #4d90fe;
+  outline: none;
+  box-shadow: 0 0 5px rgba(77, 144, 254, 0.4);
+}
+
+
+.activity-form-container button {
+  background-color: #4d90fe;
+  color: white;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.activity-form-container button:hover {
+  background-color: #3c78d8;
+}
+
+
+@media (max-width: 600px) {
+  .activity-form-container {
+    padding: 20px;
+  }
+} */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+  display: flex;
+  justify-content: center; /* Horizontal center */
+  align-items: center; /* Vertical center */
+  min-height: 100vh; /* Full viewport height */
+}
+
+h2, h3 {
+  color: #0d47a1;
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center; /* Center heading text */
+}
+
+.container {
+  width: 100%;
+  max-width: 650px;
+  background: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center form contents */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center form fields */
+}
+
+label {
+  margin: 15px 0 5px;
+  font-weight: 600;
+  color: #333;
+}
+
+select,
+input[type="text"],
+input[type="date"],
+input[type="file"] {
+  width: 80%; /* Reduce width so it’s centered */
+  padding: 10px 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: border 0.3s ease;
+  text-align: center; /* Center text inside inputs */
+}
+
+select:focus,
+input:focus {
+  border-color: #1976d2;
+  outline: none;
+}
+
+input[readonly] {
+  background-color: #f0f0f0;
+}
+
+button {
+  margin-top: 30px;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(to right, #1976d2, #0d47a1);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  width: 80%;
+}
+
+button:hover {
+  background: linear-gradient(to right, #1565c0, #0d47a1);
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 25px;
+    margin: 30px 10px;
+  }
+
+  select, input, button {
+    width: 100%;
+  }
+}
