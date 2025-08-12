@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SkillAugmentationProject/static/css/main.9bfd946f.css",
+    "main.js": "/SkillAugmentationProject/static/js/main.cc4b3135.js",
+    "static/js/453.d12e11ba.chunk.js": "/SkillAugmentationProject/static/js/453.d12e11ba.chunk.js",
+    "index.html": "/SkillAugmentationProject/index.html",
+    "main.9bfd946f.css.map": "/SkillAugmentationProject/static/css/main.9bfd946f.css.map",
+    "main.cc4b3135.js.map": "/SkillAugmentationProject/static/js/main.cc4b3135.js.map",
+    "453.d12e11ba.chunk.js.map": "/SkillAugmentationProject/static/js/453.d12e11ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9bfd946f.css",
+    "static/js/main.cc4b3135.js"
+  ]
+}
